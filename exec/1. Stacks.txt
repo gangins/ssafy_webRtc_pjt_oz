@@ -1,0 +1,22 @@
+< 스택 및 버전 상세 >
+
+FrontEnd
+
+- VisualCode : 최신판
+- React - 18.2.0
+- axios - 1.4.0
+- stompjs - 2.3.3
+- redux - 4.2.1
+- styled-components - 6.0.7
+
+BackEnd
+
+- IntelliJ IDEA Ultimate
+- SpringBoot - 3.0.6
+- Java - Zulu-17
+- SpringSecurity
+- JPA
+- QueryDsl - 5.0.0
+- MySql - 8.0.34
+- Stomp
+- smtp - 3.0.4

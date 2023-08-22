@@ -1,0 +1,28 @@
+< 배포 세팅 프로세스 >
+
+1. docker 설치
+
+2. Docker-compose.yml 작성
+
+- 필요한 이미지들 작성
+- 공통프로젝트
+    - redis
+    - nginx
+    - jenkins
+    - mysql
+
+3. ssl 인증서 발급
+
+- certbot 및 다른 인증서 사용
+
+4. Nginx 세팅
+
+- 외부 요청 들어왔을 시
+
+5. git 변경 감지
+
+- 타겟 repository 변경 시 프론트, 백 각각 빌드 및 배포 진행
+
+6. 빌드 및 도커 이미지 생성, 컨테이너 실행
+
+7. 배포 완료

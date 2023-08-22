@@ -1,0 +1,114 @@
+< 빌드 및 배포 세팅 문서 >
+
+1. 배포
+
+- EC2
+- Docker
+- Nginx - latest
+- Openvidu
+- Jenkins - jenkins:jdk17
+- Redis - latest
+
+2. docker-compose.yml
+
+```jsx
+version: '3'
+
+services:
+    jenkins:
+        image: jenkins/jenkins:jdk17
+        container_name: jenkins
+        volumes:
+            - /var/run/docker.sock:/var/run/docker.sock
+            - /jenkins:/var/jenkins_home
+        ports:
+            - "9090:8080"
+        user: root
+
+    nginx:
+        image: nginx:latest
+        container_name: nginx
+        restart: unless-stopped
+        volumes:
+            - /etc/letsencrypt:/etc/letsencrypt
+            - ./nginx/conf.d:/etc/nginx/conf.d
+        ports:
+           - 80:80
+           - 443:443
+
+    mysql:
+        image: mysql:8.0.34-debian
+        container_name: mysql
+        command: --lower_case_table_names=1
+        environment:
+           MYSQL_DATABASE: {DB이름}
+           MYSQL_ROOT_PASSWORD: {DB비밀번호
+           MYSQL_USER: {유저이름}
+           MYSQL_PASSWORD: {유저비밀번호}
+           TZ: Asia/Seoul
+
+        cap_add:
+           - SYS_NICE
+
+        ports:
+           - "3306:3306"
+        volumes:
+           - ./mysql/conf.d:/etc/mysql/conf.d
+
+    redis:
+        image: redis:latest
+        container_name: redis
+
+        ports:
+           - "6379:6379"
+```
+
+- 설치 목록
+- jenkins
+- mysql
+- redis
+- nginx
+
+3. Nginx 설정
+
+```jsx
+server {
+    listen 80;
+    server_name {서버 이름};
+
+    return 301 https://$server_name$request_uri;
+}
+
+server {
+        listen 443 ssl;
+        server_name i9b104.p.ssafy.io;
+        access_log off;
+
+        {ssl키 세팅}
+
+        location / {
+        proxy_pass {/요청 시 보낼 URL};
+        proxy_set_header Host $host:$server_port;
+        proxy_set_header X-Forwarded-Host $server_name;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+        proxy_redirect off;
+        }
+
+        location /api/ {
+        proxy_pass {/api 요청 시 보낼 URL};
+        proxy_set_header Host $host;
+        proxy_set_header X-Forwarded-Host $server_name;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+        proxy_redirect off;
+        add_header 'Access-Control-Allow-Origin' '*';
+    }
+}
+```
