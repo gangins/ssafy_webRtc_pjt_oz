@@ -1,8 +1,68 @@
-# SSAFY 공통프로젝트 1주차
+<div align="center">
+    <img width="300" height="380" src="assets/fire4bird.png">
+    <h2>Oz</h2>
+    <p>실시간 소통을 이용한 오즈의 마법사 게임</p>
+    <hr>
+</div>
+<div align=left>
+<h3><a href="https://www.notion.so/Team-Project-Template-c50ae63a026c47e4aa6f611574b6b59c">팀 노션</a>　|　
+<a href="https://www.figma.com/file/vPutCWx722sUBtGAEzay0D/MockUp?type=design&node-id=0-1&mode=design&t=1XcoFW54J6JxqH44-0"> FIGMA </a>　|　　
+<a href="https://www.erdcloud.com/d/XsHtrgRmMj7ewtZEZ"> erdcloud </a>　|　
 
-### 🖥️ 프로젝트 소개
+---
 
-SSAFY 2학기 공통프로젝트
+## :pushpin: 기술 스택
+
+<div align=left>
+<table>
+    <tr>
+        <td><b>Back-end</b></td>
+        <td><img src="https://img.shields.io/badge/Java-17.0.8-007396?style=flat&logo=Java&logoColor=white"/>
+<img src="https://img.shields.io/badge/Spring Boot-3.0.6-6DB33F?style=flat-square&logo=Spring Boot&logoColor=white"/>
+<img src="https://img.shields.io/badge/Spring Security-3.0.4-6DB33F?style=flat-square&logo=Spring Security&logoColor=white"/>
+<br>
+<img src="https://img.shields.io/badge/MySQL-8.0-4479A1?style=flat-square&logo=MySQL&logoColor=white"/>
+<img src="https://img.shields.io/badge/H2-1.4.199-4479A1?style=flat-square&logo=H2&logoColor=white"/>
+<img src="https://img.shields.io/badge/JPA-59666C?style=flat-square&logo=Hibernate&logoColor=white"/>
+<br>
+<img src="https://img.shields.io/badge/Gradle-C71A36?style=flat-square&logo=Gradle&logoColor=white"/>
+<img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=JSON Web Tokens&logoColor=white"/>
+
+</td>
+    </tr>
+    <tr>
+    <td><b>Front-end</b></td>
+    <td>
+<img src="https://img.shields.io/badge/Npm-6.14.18-CB3837?style=flat-square&logo=Npm&logoColor=white"/>
+<img src="https://img.shields.io/badge/Node-14.21.3-339933?style=flat-square&logo=Node.js&logoColor=white"/>
+<img src="https://img.shields.io/badge/React-18.2.0-61DAFB?style=flat-square&logo=React&logoColor=white"/>
+<img src="https://img.shields.io/badge/Redux-4.2.1-764ABC?style=flat-square&logo=Redux&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/JSON-000000?style=flat-square&logo=json&logoColor=white"/>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/>
+    </td>
+    </tr>
+    <tr>
+    <td><b>Infra</b></td>
+    <td>
+<img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon aws&logoColor=white"/>
+<img src="https://img.shields.io/badge/Docker-4479A1?style=flat-square&logo=Docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/NGINX-1.18.0(Ubuntu)-009639?style=flat-square&logo=NGINX&logoColor=white"/>
+<img src="https://img.shields.io/badge/Jenkins-2.332.1-D24939?style=flat-square&logo=Jenkins&logoColor=white"/>
+</td>
+    <tr>
+    <td><b>Tools</b></td>
+    <td>
+    <img src="https://img.shields.io/badge/Notion-333333?style=flat-square&logo=Notion&logoColor=white"/>
+    <img src="https://img.shields.io/badge/GitLab-FCA121?style=flat-square&logo=GitLab&logoColor=white"/>
+<img src="https://img.shields.io/badge/JIRA-0052CC?style=flat-square&logo=JIRA Software&logoColor=white"/>
+    </td>
+    </tr>
+</table>
+</div>
+
+---
 
 ### 🕰️ 프로젝트 기간
 
@@ -10,34 +70,152 @@ SSAFY 2학기 공통프로젝트
 
 ### 🧑‍🤝‍🧑 멤버 구성
 
-- 김주하(팀장) : [Holdm2t1ght](https://github.com/Holdm2t1ght)
-- 강경인 : [gangins](https://github.com/gangins)
-- 김동익 : [DongIkkk](https://github.com/DongIkkk)
-- 김정훈 : [hunsunsoo](https://github.com/hunsunsoo)
-- 한성현 : [HanSungHyeon](https://github.com/HanSungHyeon)
-- 함소명 : [Hamsomyeong](https://github.com/Hamsomyeong)
+|김주하|강경인|김동익|김정훈|한성현|함소명|
+|:--:|:--:|:--:|:--:|:--:|:--:|
+|<img src="assets/team/김주하.png">|<img src="assets/team/강경인.png">|<img src="assets/team/김동익.png">|<img src="assets/team/김정훈.png">|<img src="assets/team/한성현.png">|<img src="assets/team/함소명.png">
+|팀장(FE/BE)|팀원(FE)|팀원(FE/BE)|팀원(FE/BE)|팀원(BE)|팀원(FE/BE)|
+|[Holdm2t1ght](https://github.com/Holdm2t1ght)|[gangins](https://github.com/gangins)|[DongIkkk](https://github.com/DongIkkk)|[hunsunsoo](https://github.com/hunsunsoo)|[HanSungHyeon](https://github.com/HanSungHyeon)|[Hamsomyeong](https://github.com/Hamsomyeong)
 
-### ⚙️ 아키텍쳐 및 기술 소개
 
-- `Java 17`
-- **IDE** : STS 3.9
-- **Framework** : Springboot(3.1.1)
-- **Database** : MySQL 8.0
-- **ORM** : JPA
-- **인프라** : AWS EC2 + RDS
+## :pushpin: 프로젝트 소개
 
-### E-R Diagram
+**1. 서비스 설명**
 
-추후 삽입 예정
+### **개요**
 
-### ClassDiagram
+한줄 소개 : WebRTC와 WebSocket을 이용한 실시간 협동 게임
+서비스 명 : **Oz**
 
-추후 삽입 예정
+### **타겟 🎯**
 
-## 프로젝트 기획
+온라인상 협동 게임을 하고 싶은 사람들
+기존 출시되어있는 게임에 흥미를 잃은 사람들
 
-### 230707
+👉 **친구와 함께 온라인 협동 게임을 하고 싶은 사람들**
 
+## **2. 기획 배경**
+
+### **배경**
+
+- 서로 부족함을 채워나가는 협동 게임으로 오즈의 마법사라는 테마를 더해 재미 요소를 극대화 시켰습니다. 또한 친구들과 다같이 노는 것을 좋아하는 사람들을 위해 얼굴을 보면서 게임 할 수 있고, 직접 대면하지 않아도 온란인에서 언제든 만날 수 있다는 장점이 있습니다.
+
+### **목적 🥅**
+
+**도로시를 집에 데려다주세요**
+
+### **의의**
+
+- 비대면 상황에서 직접 만나지 않고도 즐길 수 있는 온라인 웹 화상 게임
+- 친구와의 협동게임으로 서로의 부족함을 채워주는 재미효과
+
+## **3. 서비스 메인화면**
+
+![로그인](assets/gif/login.gif)
+![방만들기](assets/gif/방만들기.gif)
+![대기방](assets/gif/대기방.gif)
+![역할선택](assets/gif/역할선택.gif)
+
+---
+
+## :pushpin: 활용 기술
+
+---
+
+## 1. WebRTC
+
+### WebRTC란?
+
+사진+설명
+
+## 2. WebSocket
+
+### WebSocket이란?
+
+사진+설명
+
+---
+
+## 🏗️**서비스 아키텍쳐**
+
+## ![시스템 아키텍쳐](assets/stack.png){: width="600" height="500"){: .center}
+
+## 🔎**서비스 기능 소개**
+
+---
+
+### 1. 사칙연산 게임
+
+- 주어진 판을 외워 제시된 답을 맞춘다.<br>
+  ![사칙연산게임](assets/gif/사칙연산_허수아비.gif)
+
+### 2. 함정 게임
+
+- 조력자들이 알려주는 곳으로 믿고 이동한다.<br>
+  ![함정게임](assets/gif/함정게임_클리어.gif)
+
+### 3. 상형문자 게임
+
+- 조력자들이 알려주는 상형문자의 디테일과 맞는 그림을 판에 넣는다.<br>
+  ![상형문자게임](assets/gif/상형문자게임_클리어_허수아비시점.gif)
+
+### 4. 이어그리기 게임
+
+- 그림을 차례로 이어그려 도로시가 답을 맞출 수 있도록 한다.<br>
+  ![이어그리기게임](assets/gif/이어그리기_클리어_허수아비시점.gif)
+
+## 👨‍💻 **프로젝트 진행**
+
+---
+
+## **1. GitLab**
+
+- Git 컨벤션 및 Git flow 를 정하여 작업하였습니다.
+
+- `work branch` , `develop branch` , `realese brach` 등 기능별, 용도별로 브랜치를 분기하여 사용하였습니다.
+
+- 개발에 사용한 자세한 Git 컨벤션 및 GitFlow 에 적어 놓았습니다
+
+## 2. Jira
+
+- 한 주를 시작하는 월요일에 이번주에 진행되어야할 이슈들을 백로그에 등록 했습니다.
+- 에픽은 페이지 단위로 구성하였습니다.
+- 실시간으로 작업내용을 반영하여 팀원들이 작업 진행 상황을 서로 공유 할 수 있도록 하였습니다
+
+## 3. Notion
+
+데일리 스크럼을 진행하면서 하루동안의 예상되는 이슈사항을 체크 했습니다.
+
+회의록 작성을 통해 회의 내용을 문서화 해놓았습니다.
+
+GitLab, Jira, DB의 컨벤션 규칙을 문서화 시켜 놓았습니다
+
+전체 일정 관리를 점검하며 프로젝트를 점검하였습니다.
+
+팀원 모두가 공유해얗는 자료 및 링크는 노션에 정리 하여 쉽게 찾아 볼 수 있도록 하였습니다
+
+### UI/UX
+
+<!-- ![image-20220408111429288](README.assets/image-20220408111429288.png) -->
+
+사진추가
+
+`Figma` 를 사용하여 페이지 단위로 상세 UI/UX를 작성했습니다.
+
+### ERD
+
+![erd](assets/erd.png)
+
+`erdCloud` 를 사용하여 erd 설계를 하였습니다.
+
+## API
+
+<!-- ![image-20220408111504992](README.assets/image-20220408111504992.png) -->
+
+사진추가
+`Postman` 을 활용하여 API 문서를 작성하였습니다.
+
+<details>
+<summary>기획 및 회의록</summary>
 <details>
 <summary>회의록</summary>
 <div markdown="1">
@@ -854,7 +1032,6 @@ https://www.notion.so/5b16ea74515e430ea3136ab9d6cb6df0
 </div>
 </details>
 
-
 ### 230719
 
 <details>
@@ -893,8 +1070,9 @@ bgm 관리
 - 역할군은 회차멤버에 들어가야하고
 
 - 무조건 팀테이블 회차테이블 따로가 맞다
-    - 팀에도 멤버가 존재
-    - 회차에도 멤버가 존재
+
+  - 팀에도 멤버가 존재
+  - 회차에도 멤버가 존재
 
 - 역할군이나 스테이지를 코드테이블로 따로 뺄건지 고민해야함
 - 영원불변의 것들은 사실 하드코딩해도 괜찮음. 근데 빼두면 괜찮긴할거임
@@ -948,22 +1126,20 @@ ec2에 도커 컨테이너활용해서 백프론트 둘다올리는것으로도 
 1stage - 사칙연산
 
 - 로그 테이블
-    - 숫자판 - varchar
-        - ex) [[1,2,3,4,5,6], [1,2,3,4,5,6], …]
-    - 조력자1 선택한 좌표
-    - 조력자2 선택한 좌표
-    - 조력자3 선택한 좌표
-    - (상황) 임의의 조력자 a가 숫자판에서 하나를 선택하면, 나머지 b, c에게도 그 숫자판이 선택되었다는 사실이 실시간으로 반영되어 체크표시 등으로 확인 가능하다.
-        
-        (상황) 시간 내에 조력자 a,b,c가 2개씩 선택하지 못했을 경우, 선택한 만큼의 숫자판만 반영된다.
-        
-    - 정답자 기호 && n 선택
-    - 정답유무 o x
-    - 로그 찍힌 시간
+  - 숫자판 - varchar
+    - ex) [[1,2,3,4,5,6], [1,2,3,4,5,6], …]
+  - 조력자1 선택한 좌표
+  - 조력자2 선택한 좌표
+  - 조력자3 선택한 좌표
+  - (상황) 임의의 조력자 a가 숫자판에서 하나를 선택하면, 나머지 b, c에게도 그 숫자판이 선택되었다는 사실이 실시간으로 반영되어 체크표시 등으로 확인 가능하다.
+    (상황) 시간 내에 조력자 a,b,c가 2개씩 선택하지 못했을 경우, 선택한 만큼의 숫자판만 반영된다.
+  - 정답자 기호 && n 선택
+  - 정답유무 o x
+  - 로그 찍힌 시간
 - 게임 테이블
-    - 정답
-    - 조력자 - 선택한 6개 숫자
-    - 정답자 - 제출한 정답
+  - 정답
+  - 조력자 - 선택한 6개 숫자
+  - 정답자 - 제출한 정답
 
 2stage - 함정
 
@@ -982,103 +1158,105 @@ ec2에 도커 컨테이너활용해서 백프론트 둘다올리는것으로도 
 230721 회의
 
 - ERD추가사항(3명)
-    - 방에 따른 url링크 저장
-    - 옵션 사항 저장
-    - 스크립트, 게임 방법 text 테이블 저장
-    - 캐릭터 이미지 저장(전신, 반신)
+
+  - 방에 따른 url링크 저장
+  - 옵션 사항 저장
+  - 스크립트, 게임 방법 text 테이블 저장
+  - 캐릭터 이미지 저장(전신, 반신)
 
 - API 설계서 작성(2명)
 
 - 개발 환경세팅
-    - Front
-    - Back
-    - git branch 관리
-        - feature - ex) feature/front/{issue-number}-{feature-name}
-            - back
-                - 소켓통신
-                - 도어 페이지
-                - 유저 관리
-                - 팀 관리
-                - 사칙연산 게임
-                - 함정 게임
-                - 상형문자 게임
-                - 이어그리기 게임
-                - 랭킹
-            - front
-                - 도어 페이지
-                - 유저 관리
-                - 팀 관리
-                - 사칙연산 게임
-                - 함정 게임
-                - 상형문자 게임
-                - 이어그리기 게임
-                - 랭킹
-        - develop
-        - release
-        - master
+
+  - Front
+  - Back
+  - git branch 관리
+    - feature - ex) feature/front/{issue-number}-{feature-name}
+      - back
+        - 소켓통신
+        - 도어 페이지
+        - 유저 관리
+        - 팀 관리
+        - 사칙연산 게임
+        - 함정 게임
+        - 상형문자 게임
+        - 이어그리기 게임
+        - 랭킹
+      - front
+        - 도어 페이지
+        - 유저 관리
+        - 팀 관리
+        - 사칙연산 게임
+        - 함정 게임
+        - 상형문자 게임
+        - 이어그리기 게임
+        - 랭킹
+    - develop
+    - release
+    - master
 
 - 역할분담
-    - 4명
-        - 게임 전
-            - 대기방(Web RTC) 2명 - 김정훈, 김동익
-            - 채팅기능(Web Socket) 2명 - 김주하, 함소명
-            - 나중
-                - 옵션관리 - 사용자 소리설정, 자신 화면 및 음소거설정
-                    - 멤버별 소리 조절: 완전 후순위 심화
-        - 게임 중 ( 2명 당 2개 )
-            - 누가 먼저 back할건지, front할건지 정하기
-                - 사칙연산 게임, 이어그리기 게임: 김주하, 김정훈
-                - 함정 게임, 상형 문자 게임: 함소명, 김동익
-    - 1명
-        - 로그인(회원가입, 비밀번호 변경 등), 시큐리티 세팅
-        - 역할 선택 / 팀 구성
-        - 인프라 구축
-        - 랭킹
-    - 경인
-        - 메인+로그인 화면, 스크립트+인트로+게임방법
-    
-    ## 컨설턴트님 피드백
-    
-    ```
-    도전 횟수 -> 이름 변경 -> turn과 같은 한번에 알아 볼 수 있고 의미있는 이름
-    
-    메모리 대신 오해의 소지가 없는 이름으로 수정
-    
-    조력자들이 선택한 좌표 -> 컬럼을 여러 개로 분할
-     -> 구현하면서 재고민
-    
-    try_count (해당 스테이지 도전 횟수) -> 네이밍 변경
-    
-    로그 테이블 행위자 -> 식별자로 변경
-    
-    로그 유형 -> 고민해보기, 명확한 기준 설정
-    
-    함정게임데이터의 이미지를 불러올 조건 설정
-    
-    현재방향 -> 0 1 2 3 대신 가독성이 명확한 네이밍으로 변경
-    
-    열쇠 유무 타입 변경(0,1 밖에 존재하지 않음)
-    
-    함정 게임 메모리
-    성공 여부
-    
-    행위자 -> 분할
-    유저 컬럼 
-    시스템 컬럼
-    
-    상형문자게임메모리
-    상형문자표 -> 상형문자게임데이터로
-    
-    이어그리기게임 메모리
-    제시어 : varchar() 이어그리기데이터 일련번호 물기
-    
-    mysql json 타입 -> 고려
-    ```
-    
+
+  - 4명
+    - 게임 전
+      - 대기방(Web RTC) 2명 - 김정훈, 김동익
+      - 채팅기능(Web Socket) 2명 - 김주하, 함소명
+      - 나중
+        - 옵션관리 - 사용자 소리설정, 자신 화면 및 음소거설정
+          - 멤버별 소리 조절: 완전 후순위 심화
+    - 게임 중 ( 2명 당 2개 )
+      - 누가 먼저 back할건지, front할건지 정하기
+        - 사칙연산 게임, 이어그리기 게임: 김주하, 김정훈
+        - 함정 게임, 상형 문자 게임: 함소명, 김동익
+  - 1명
+    - 로그인(회원가입, 비밀번호 변경 등), 시큐리티 세팅
+    - 역할 선택 / 팀 구성
+    - 인프라 구축
+    - 랭킹
+  - 경인
+    - 메인+로그인 화면, 스크립트+인트로+게임방법
+
+  ## 컨설턴트님 피드백
+
+  ```
+  도전 횟수 -> 이름 변경 -> turn과 같은 한번에 알아 볼 수 있고 의미있는 이름
+
+  메모리 대신 오해의 소지가 없는 이름으로 수정
+
+  조력자들이 선택한 좌표 -> 컬럼을 여러 개로 분할
+   -> 구현하면서 재고민
+
+  try_count (해당 스테이지 도전 횟수) -> 네이밍 변경
+
+  로그 테이블 행위자 -> 식별자로 변경
+
+  로그 유형 -> 고민해보기, 명확한 기준 설정
+
+  함정게임데이터의 이미지를 불러올 조건 설정
+
+  현재방향 -> 0 1 2 3 대신 가독성이 명확한 네이밍으로 변경
+
+  열쇠 유무 타입 변경(0,1 밖에 존재하지 않음)
+
+  함정 게임 메모리
+  성공 여부
+
+  행위자 -> 분할
+  유저 컬럼
+  시스템 컬럼
+
+  상형문자게임메모리
+  상형문자표 -> 상형문자게임데이터로
+
+  이어그리기게임 메모리
+  제시어 : varchar() 이어그리기데이터 일련번호 물기
+
+  mysql json 타입 -> 고려
+  ```
 
 - 컨설턴트님 피드백
 
-최종평 : 통일성 굿굿 / 줄일거 줄여라  /json 타입 공부 /코멘트들 달아주기 /메모리 - 뭔가 부족함, 용어 오해의 소지 있음(기록으로 하면 덜 헷갈려)
+최종평 : 통일성 굿굿 / 줄일거 줄여라 /json 타입 공부 /코멘트들 달아주기 /메모리 - 뭔가 부족함, 용어 오해의 소지 있음(기록으로 하면 덜 헷갈려)
 
 1. 사칙연산
 
@@ -1089,29 +1267,29 @@ ec2에 도커 컨테이너활용해서 백프론트 둘다올리는것으로도 
 - 성공여부 들어가는 거 생각
 - 명확하게 순서 지정
 
-게임로그 -  키쓰기 /순서생각
+게임로그 - 키쓰기 /순서생각
 
-1. 함정게임 
-    
-    함정게임 메모리 
-    
-    - 방향 →가독성위해 forward top bottom back 등으로 변경
-    - 정답 유무,함정에 걸렸다 유무 →  프론트가 할수도 →성공여부는 백ㅇㅇ
-    
-    함정게임 로그 - 시스템  필드 나눠라 →if 문으로 처리가능 
-    
-    함정게임 데이터 
-    
-    - 이미지 떠야되는 상황에 따라 이미지를 뛰어야 되는 데 상황정보 어딨음 ?? 언제 1번이미지를 보여주는지 ?? 이게 이 테이블 존재 이유 →성현 : 함정게임 메모리에 위치랑 등등 이용해서 판단 → 컨 : 어떻게 해야하는데 ? 네이밍 코드값을 넣거나해야지 지금처럼 하는거는 하드 코딩 , 판단을 내릴 정보를  주어야한다.
+1. 함정게임
 
-1. 문자판 
+   함정게임 메모리
 
-게임메모리 
+   - 방향 →가독성위해 forward top bottom back 등으로 변경
+   - 정답 유무,함정에 걸렸다 유무 → 프론트가 할수도 →성공여부는 백ㅇㅇ
 
-- 상형문자표,이미지링크  → 상형문자게임데이터로  넣는게 낫지 않냐 ??
+   함정게임 로그 - 시스템 필드 나눠라 →if 문으로 처리가능
+
+   함정게임 데이터
+
+   - 이미지 떠야되는 상황에 따라 이미지를 뛰어야 되는 데 상황정보 어딨음 ?? 언제 1번이미지를 보여주는지 ?? 이게 이 테이블 존재 이유 →성현 : 함정게임 메모리에 위치랑 등등 이용해서 판단 → 컨 : 어떻게 해야하는데 ? 네이밍 코드값을 넣거나해야지 지금처럼 하는거는 하드 코딩 , 판단을 내릴 정보를 주어야한다.
+
+1. 문자판
+
+게임메모리
+
+- 상형문자표,이미지링크 → 상형문자게임데이터로 넣는게 낫지 않냐 ??
 - 정답 → 같은거 있으니까 최대한 줄여
 
-1. 이어그리기 게임 
+1. 이어그리기 게임
 
 데이터
 
@@ -1135,4 +1313,4 @@ ec2에 도커 컨테이너활용해서 백프론트 둘다올리는것으로도 
 <img src="수정 예정">
 </div>
 </details>
-
+</details>
